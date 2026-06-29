@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .sign-up{
+            margin: 50px;
+            padding: 7px 15px;
+            background-color: rgb(223, 160, 42);
+            color: white;
+            border: none;
+            border-radius: 2px;
+        }
+        .sign-up:hover{
+            background-color: rgb(199, 140, 31);
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+        .login{
+            padding: 7px 15px;
+            background-color: white;
+            border-radius: 5px;
+            border: 1px solid rgb(223, 184, 112)
+        }
+        .login:hover{
+            background-color: rgb(199, 140, 31);
+            transition: all 0.2s;
+            color: white;
+            cursor: pointer;
+        }
+        .login:active{
+            scale: 0.97;
+        }
+        input{
+            padding: 5px 10px;
+            border: 1px solid red;
+            border-radius: 5px;
+        }
+        input:focus{
+            outline: 1px solid red;
+        }
+        a:link{
+            color: red;
+        }
+        a:visited{
+            color: aqua;
+        }
+        /*.parent p:last-child{
+            color: red;
+        }
+        .parent p:nth-child(even){
+            color: red;
+        }
+        .parent p:nth-child(odd){
+            color: red;
+        }*/
+
+        .check:checked{
+            accent-color: red;
+        }
+        .sign-up:disabled{
+            background-color: gray;
+            cursor: not-allowed;
+        }
+        
+            
+    </style>
+</head>
+<body>
+    
+
+    <button class="sign-up " disabled>Sign Up</button>
+    <button class="login">Login</button>
+
+    <input type="text" placeholder="enter email">
+    <a href="abc">abc</a>
+    <a href="efg">efg</a>
+    <a href="#"aef></a>
+
+    <div class="parent">
+        <p>child 1</p>
+        <p>child 2</p>
+        <p>child 3</p>
+        <p>child 4</p>
+    </div>
+
+    <input class="check" type="checkbox" id="check">
+    <label for="check">Check</label>
+
+    <input class="check" type="radio" id="radio">
+    <label for="radio">Check</label>
+
+</body>
+</html>
