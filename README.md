@@ -17,24 +17,18 @@ git branch
 
 
 # change branch
-
 git fetch origin
 git checkout <branch-name>
-
 # create new branch
 
 git branch <branch-name>
 git checkout <branch-name>
 
-
 # push branch to remote
+
 git add .
 git commit -m "message"
 git push -u origin <branch-name>
-
-
-# pull code from dev to main bracnh
-git pull origin dev
 
 # to work with local branch
 
