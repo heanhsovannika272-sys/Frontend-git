@@ -17,31 +17,31 @@ git branch
 
 
 # change branch
-git fetch origin
-git checkout <branch-name>
+1. git fetch origin
+2. git checkout <branch-name>
 # create new branch
 
-git branch <branch-name>
-git checkout <branch-name>
+1. git branch <branch-name>
+2. git checkout <branch-name>
 
 # push branch to remote
 
-git add .
-git commit -m "message"
-git push -u origin <branch-name>
+1. git add .
+2. git commit -m "message"
+3. git push -u origin <branch-name>
 
 # to work with local branch
 
 # create new branch
-git branch <new-branch>
-git checkout <new-branch>
+1. git branch <new-branch>
+2. git checkout <new-branch>
 
 # when finish code in new branch
-git add .
-git commit -m "message"
+1. git add .
+2. git commit -m "message"
 
 # switch from new branch to main branch
-git checkout main
+1. git checkout main
 
 # merge new branch to main branch
-git merge <new-branch>
+1. git merge <new-branch>
