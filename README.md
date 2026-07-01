@@ -35,3 +35,18 @@ git push -u origin <branch-name>
 #pull code from dev to main bracnh
 
 git pull origin dev
+
+#to work with local branch
+# create new branch
+git branch <new-branch>
+git checkout <new-branch>
+
+# when finish code in new branch
+git add .
+git commit -m "message"
+
+# switch from new branch to main branch
+git checkout main
+
+# merge new branch to main branch
+git merge <new-branch>
